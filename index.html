@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Хрестики-ноліки-Юра</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="script.js"></script>
+</head>
+<body>
+    <table class="field">
+        <tr>
+            <td class="cell"><button id="cell1" onclick="putSign(2,2,1)"></button></td>
+            <td class="cell"><button id="cell2" onclick="putSign(2,3,2)"></button></td>
+            <td class="cell"><button id="cell3" onclick="putSign(2,4,3)"></button></td>
+        </tr>
+        <tr>
+            <td class="cell"><button id="cell4" onclick="putSign(3,2,4)"></button></td>
+            <td class="cell"><button id="cell5" onclick="putSign(3,3,5)"></button></td>
+            <td class="cell"><button id="cell6" onclick="putSign(3,4,6)"></button></td>
+        </tr>
+        <tr>
+            <td class="cell"><button id="cell7" onclick="putSign(4,2,7)"></button></td>
+            <td class="cell"><button id="cell8" onclick="putSign(4,3,8)"></button></td>
+            <td class="cell"><button id="cell9" onclick="putSign(4,4,9)"></button></td>
+        </tr>
+    </table>
+    <button onclick="reset()" class="reset">New Game</button>
+</body>
+</html>
