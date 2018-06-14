@@ -74,7 +74,7 @@ function check(i, j){
 function reset(){
     //clear view
     counter = 1;
-    for (var i = 1; i < (d*d); i++){
+    for (var i = 1; i <= (d*d); i++){
         document.querySelector("#cell" + i).innerHTML = '';
         document.querySelector("#cell" + i).removeAttribute('disabled');
     }
